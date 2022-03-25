@@ -1,0 +1,75 @@
+*,*::after,*::before{
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Jura', sans-serif;
+  background-color: #0a0a0a;
+  color:#ffffff;
+  max-width: 100vw;
+}
+
+.container{
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1200px;
+  padding: 0 20px;
+}
+.fb{
+  padding: 0;
+}
+
+.fb iframe{
+  background-color: #fff;
+  margin: 0 auto;
+  display: block;
+  max-width: 500px;
+}
+
+a{
+  color:#339955;
+  font-weight: 700;
+}
+
+h1,h2,h3,h4,h5,h6,p{
+  text-align: center;
+}
+
+time{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  max-width: 600px;
+  margin: 16px auto;
+}
+
+time>span{
+  display: inline-block;
+  margin: 0 auto;
+  padding: 0 8px;
+}
+
+.count{
+  font-size: 1.25em;
+}
+
+footer{
+  margin-top: 32px;
+}
+
+.flex{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.flex>a,.flex>div{
+  display: block;
+  margin: 16px;
+}
+
+.copy{
+  margin: 16px 0;
+}
