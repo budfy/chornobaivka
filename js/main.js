@@ -20,10 +20,10 @@ function countTime() {
         let secs = Math.floor((((timeDifference % (secondsInADay)) % (secondsInAHour)) % (60 * 1000)) / 1000 * 1);
 
         let str = '';
-        str += years > 0 ? `<span>років: <b class="count">${years} </b></span>` : ``;
-        str += days > 0 ? `<span>днів:  <b class="count">${days} </b></span>` : ``;
-        str += hours > 0 ? `<span>годин: <b class="count">${hours} </b></span>` : ``;
-        str += `<span>хвилин: <b class="count">${mins}</b></span> <span>секунд:  <b class="count">${secs}</b></span>`;
+        str += years > 0 ? `<span class="timer-item"><b class="count">${years}</b>р. </span>` : ``;
+        str += days > 0 ? `<span class="timer-item"><b class="count">${days}</b>д. </span>` : ``;
+        str += hours > 0 ? `<span class="timer-item"><b class="count">${hours}</b>год.</span>` : ``;
+        str += `<span class="timer-item"><b class="count">${mins}</b>хв.</span> <span class="timer-item"><b class="count">${secs}</b>сек.</span>`;
 
         document.querySelector('.last-date').innerHTML = str;
         clearTimeout(countUpFromTime.interval);
