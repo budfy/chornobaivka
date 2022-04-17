@@ -1,82 +1,280 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+
+  <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Скільки разів виїбали русню в Чорнобаївці">
+    <meta http-equiv="X-UA-Compatible"
+          content="IE=edge">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+          content="Скільки разів виїбали русню в Чорнобаївці">
 
     <!-- OG -->
-    <meta name="twitter:creator" content="@Roman_Serdyuk">
-    <meta property="og:title" content="🇺🇦ЧОРНОБАЇВКА☠️" />
-    <meta property="og:description" content="Скільки разів виїбали русню в Чорнобаївці" />
-    <meta property="og:url" content="https://чорнобаївка.pp.ua" />
-    <meta property="og:image" content="./img/chorn.jpeg" />
+    <meta name="twitter:creator"
+          content="@Roman_Serdyuk">
+    <meta property="og:title"
+          content="🇺🇦ЧОРНОБАЇВКА-COUNTER☠️" />
+    <meta property="og:description"
+          content="Скільки разів виїбали русню в Чорнобаївці" />
+    <meta property="og:url"
+          content="https://chornobayivka.pp.ua" />
+    <meta property="og:image"
+          content="./img/chorn.jpeg" />
     <!-- !OG -->
 
-    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>☠️</text></svg>">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Jura:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/style.css">
-    <title>🇺🇦ЧОРНОБАЇВКА☠️</title>
-</head>
-<body>
+    <link rel="icon"
+          href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>☠️</text></svg>">
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="preconnect"
+          href="https://fonts.googleapis.com">
+    <link rel="preconnect"
+          href="https://fonts.gstatic.com"
+          crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jura:wght@400;700&display=swap"
+          rel="stylesheet">
+    <link rel="stylesheet"
+          href="css/style.css">
+    <title>🇺🇦ЧОРНОБАЇВКА-COUNTER☠️</title>
+  </head>
+
+  <body>
+    <div id="fb-root"></div>
+    <script async
+            defer
+            crossorigin="anonymous"
+            src="https://connect.facebook.net/uk_UA/sdk.js#xfbml=1&version=v13.0&appId=179018862722627&autoLogAppEvents=1"
+            nonce="2uNPiw39"></script>
     <div class="page-wrapper">
+      <div class="top">
+        <div class="container">
+          <div class="top__inner flex --align-stretch --justify-center">
+            <picture class="top__pic">
+              <source srcset="img/chorn.webp"
+                      type="image/webp">
+              <img src="img/chorn.jpg"
+                   alt="У Чорнобаївці горить русня"
+                   class="top__img">
+            </picture>
+            <header class="top__header header">
+              <h1 class="header__title">
+                У Чорнобаївці русню вʼїбали вже
+                <span class="header__count count">16</span> разів.
+              </h1>
+              <p class="header__text">
+                З останнього розйобу москалів у Чорнобаївці пройшло:<time class="header__date timer flex --justify-around --align-center"
+                      datetime="2022-04-17T02:07:00"></time>
+              </p>
 
+              <section class="header__help help">
+                <h2 class="help__title">Як допомогти:</h2>
+                <div class="help__inner">
 
-        <div id="fb-root"></div>
-        <script async defer crossorigin="anonymous" src="https://connect.facebook.net/uk_UA/sdk.js#xfbml=1&version=v13.0&appId=179018862722627&autoLogAppEvents=1" nonce="2uNPiw39"></script>
-
-        <main>
-
-            <div class="container">
-                <div class="flex-wrapper">
-
-                    <picture class="pic">
-
-                        <img src="img/chorn.jpeg" alt="Русня горить у Чорнобаївці">
+                  <a href="https://www.mil.gov.ua/dopomoga-na-materialno-tehnichne-ta-medichne-zabezpechennya-zbrojnih-sil-ukraini.html"
+                     class="help__link">
+                    <picture class="help__link-logo">
+                      <img src="img/modlogo.svg"
+                           alt="">
                     </picture>
-                    <div class="inner">
+                    <span class="help__link-text">Міністерству оборони</span>
+                  </a>
 
-                        <h1 class="title">
-                            У Чорнобаївці русню вʼїбали вже
+                  <a href="https://savelife.in.ua/donate/"
+                     class="help__link">
+                    <picture class="help__link-logo">
+                      <img src="img/logo_pj.svg"
+                           alt="">
+                    </picture>
+                    <span class="help__link-text">
+                      Фонду "Повернись живим"</span>
+                  </a>
 
-                            <span class="count">12</span> разів.
-                        </h1>
-                        <h2 class="subtitle">З останнього розйобу москалів у Чорнобаївці пройшло <br><time class="last-date" datetime="2022-03-28T01:40:00"></time></h2>
-                        <h2>СЛАВА УКРАЇНІ!</h2>
-                        <h2>Допомогти армії:</h2>
-                        <ul>
-                            <li>Офіційний рахунок <a href="https://www.mil.gov.ua/dopomoga-na-materialno-tehnichne-ta-medichne-zabezpechennya-zbrojnih-sil-ukraini.html">Міністерства оборони України</a> </li>
-                            <li>Благодійний фонд <a href="https://savelife.in.ua/donate/">"Повернись живим"</a></li>
-                            <li>Фонд <a href="https://armysos.com.ua/pomoch-armii">"Армія SOS"</a></li>
-                            <li>Донатні стікери від <a href="https://palianytsia.com/">"Паляниці"</a></li>
-                        </ul>
-                    </div>
+                  <a href="https://armysos.com.ua/pomoch-armii"
+                     class="help__link">
+                    <picture class="help__link-logo">
+                      <img src="img/C-Logo-UA.svg"
+                           alt="">
+                    </picture>
+                    <span class="help__link-text">
+                      Фонду "Армія SOS"</span>
+                  </a>
+
+                  <a href="https://palianytsia.com/"
+                     class="help__link">
+                    <picture class="help__link-logo">
+                      <source srcset="img/PLNTSlogoBlack2_180x.webp"
+                              type="image/webp">
+                      <img src="img/PLNTSlogoBlack2_180x.png"
+                           alt="">
+                    </picture>
+                    <span class="help__link-text">Руху "Паляниця"</span>
+                  </a>
+
+                  <a href="https://volunteerdnipro.com.ua/"
+                     class="help__link">
+                    <picture class="help__link-logo">
+                      <img src="img/voldnipro.svg"
+                           alt="">
+                    </picture>
+                    <span class="help__link-text">Волонтерському штабу Дніпра</span>
+                  </a>
+
+                  <a href="https://diirazom.org/"
+                     class="help__link">
+                    <picture class="help__link-logo">
+                      <source srcset="img/razom.webp"
+                              type="image/webp">
+                      <img src="img/razom.jpg"
+                           alt="">
+                    </picture>
+                    <span class="help__link-text">Громадському руху "Дій разом"</span>
+                  </a>
                 </div>
+              </section>
+            </header>
+          </div>
+        </div>
+      </div>
+
+      <main class="main">
+        <!-- SECTION: about -->
+        <section class="about">
+          <div class="container">
+            <div class="about__inner">
+              <h2 class="about__title section-title">Чорнобаївка -</h2>
+              <p class="about__text">
+                село в Херсонській області України, центр Чорнобаївської сільської громади. Село розташоване у 10км на північ від Херсона, де розташований військовий аеродром, а неподалік - міжнародний аеропорт "Херсон".
+              </p>
+              <p class="about__text">Чорнобаївку російські війська прагнуть захопити, щоб налагодити перекидання військ через Дніпро. Це стратегічно важливе для окупантів місце, бо саме там є вдосталь площі для розміщення техніки, якою можна було б наступати далі на Миколаїв та Одесу. Інші два можливих місця переправи, через мости в Антонівці та Новій Каховці, перебувають в радіусі атак українських реактивних систем залпового вогню «Смерч» та «Ураган», що обмежує пересування.</p>
             </div>
+          </div>
+        </section>
+        <!-- !SECTION: about -->
 
-            <div class="container donater">
-
+        <!-- SECTION: history -->
+        <section class="history">
+          <div class="container">
+            <div class="history__inner">
+              <h2 class="section-title">Історія розйобів русні:</h2>
+              <p class="history__item">
+                <time datetime="2022-02-27"
+                      class="history__date">27 лютого 2022</time>
+                <span class="history__text"> - русню роз'їбали 1-й та 2-й раз</span>
+              </p>
+              <p class="history__item">
+                <time datetime="2022-03-07"
+                      class="history__date">07 березня 2022</time>
+                <span class="history__text"> - русню роз'їбали 3-й та 4-й раз</span>
+              </p>
+              <p class="history__item">
+                <time datetime="2022-03-16"
+                      class="history__date">16 березня 2022</time>
+                <span class="history__text"> - русню роз'їбали 5-й раз</span>
+              </p>
+              <p class="history__item">
+                <time datetime=2022-03-18"
+                      class="history__date">18 березня 2022</time>
+                <span class="history__text"> - русню роз'їбали 6-й раз</span>
+              </p>
+              <p class="history__item">
+                <time datetime="2022-03-21"
+                      class="history__date">21 березня 2022</time>
+                <span class="history__text"> - русню роз'їбали 7-й раз</span>
+              </p>
+              <p class="history__item">
+                <time datetime="2022-03-22"
+                      class="history__date">22 березня 2022</time>
+                <span class="history__text"> - русню роз'їбали 8-й раз</span>
+              </p>
+              <p class="history__item">
+                <time datetime="2022-03-23"
+                      class="history__date">23 березня 2022</time>
+                <span class="history__text"> - русню роз'їбали 9-й раз</span>
+              </p>
+              <p class="history__item">
+                <time datetime="2022-03-24"
+                      class="history__date">24 березня 2022</time>
+                <span class="history__text"> - русню роз'їбали 10-й раз</span>
+              </p>
+              <p class="history__item">
+                <time datetime="2022-03-27"
+                      class="history__date">27 березня 2022</time>
+                <span class="history__text"> - русню роз'їбали 11-й раз</span>
+              </p>
+              <p class="history__item">
+                <time datetime="2022-03-28"
+                      class="history__date">28 березня 2022</time>
+                <span class="history__text"> - русню роз'їбали 12-й раз</span>
+              </p>
+              <p class="history__item">
+                <time datetime="2022-04-01"
+                      class="history__date">01 квітня 2022</time>
+                <span class="history__text"> - русню роз'їбали 13-й та 14-й раз</span>
+              </p>
+              <p class="history__item">
+                <time datetime="2022-04-13"
+                      class="history__date">13 квітня 2022</time>
+                <span class="history__text"> - русню роз'їбали 15-й раз</span>
+              </p>
+              <p class="history__item">
+                <time datetime="2022-04-17"
+                      class="history__date">17 квітня 2022</time>
+                <span class="history__text"> - русню роз'їбали 16-й раз</span>
+              </p>
             </div>
-        </main>
-        <footer>
-            <div class="container">
-                <div class="flex">
-                    <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-show-count="false">Tweet</a>
-                    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+          </div>
+        </section>
+        <!-- !SECTION: history -->
+      </main>
 
-                    <div class="fb-share-button" data-href="https://developers.facebook.com/docs/plugins/" data-layout="button_count" data-size="large"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2Fplugins%2F&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">Поширити</a></div>
+      <footer class="footer">
+        <div class="container">
+          <div class="footer__share">
 
-                    <script async src="https://telegram.org/js/telegram-widget.js?18" data-telegram-share-url="https://chornobayivka.pp.ua/" data-comment="Коли востаннє розбили русню в Чорнобаївці." data-size="large"></script>
-                </div>
-                <p class="copy">Автор <a href="https://www.facebook.com/r.serdyuk/">Роман Сердюк</a></p>
-            </div>
-        </footer>
+            <!-- NOTE: Twitter share -->
+            <a href="https://twitter.com/share?ref_src=twsrc%5Etfw"
+               class="twitter-share-button"
+               data-show-count="false">Твітнути</a>
+            <script async
+                    src="https://platform.twitter.com/widgets.js"
+                    charset="utf-8"></script>
+
+            <!-- NOTE: facebook share -->
+            <div class="fb-share-button"
+                 data-href="https://chornobayivka.pp.ua"
+                 data-layout="button_count"
+                 data-size="small"><a target="_blank"
+                 href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fchornobayivka.pp.ua%2F&amp;src=sdkpreparse"
+                 class="fb-xfbml-parse-ignore">Поширити</a></div>
+
+            <!-- NOTE: telegram share -->
+            <script async
+                    src="https://telegram.org/js/telegram-widget.js?19"
+                    data-telegram-share-url="https://chornobayivka.pp.ua"
+                    data-comment="Скільки разів русню розбили в Чорнобаївці?"></script>
+
+            <a id="viber_share"
+               class="footer__viber-share flex --align-center"><img class="footer__viber-icon"
+                   src="https://cdn.cdnlogo.com/logos/v/17/viber-icon.svg"><span>Поділитися</span></a>
+            <script>
+              var buttonID = "viber_share";
+              var text = "Скільки разів русню розбили в Чорнобаївці: ";
+              document.getElementById(buttonID)
+                .setAttribute('href', "viber://forward?text=" + encodeURIComponent(text + " " + window.location.href));
+
+            </script>
+          </div>
+
+          <p class="footer__copy">Автор <a href="https://www.facebook.com/r.serdyuk/"
+               class="footer__copy-link">Роман Сердюк</a></p>
+        </div>
+      </footer>
     </div>
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6912267764025704" crossorigin="anonymous"></script>
+    <script async
+            src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6912267764025704"
+            crossorigin="anonymous"></script>
     <script src="js/main.js"></script>
-</body>
+  </body>
+
 </html>
